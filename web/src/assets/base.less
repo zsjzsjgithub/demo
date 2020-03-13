@@ -1,0 +1,70 @@
+@import "config";
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body, p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  .wm;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.search {
+  padding: 0 10px;
+  padding-top: 18px;
+  background: #f9f9f9;
+  margin-bottom: 24px;
+}
+
+.page {
+  margin-top: 24px;
+}
+
+.el-table__row.expanded td{
+  border-bottom: none !important;
+}
+
+.el-table__expanded-cell {
+  padding: 0 !important;
+}
+
+.dialog-400 {
+  width: 400px !important;
+  @media screen and (max-width: 400px) {
+    width: 95% !important;
+  }
+}
+
+.dialog-500 {
+  width: 500px !important;
+  @media screen and (max-width: 500px) {
+    width: 95% !important;
+  }
+}
+
+.dialog-800 {
+  width: 800px !important;
+  @media screen and (max-width: 800px) {
+    width: 95% !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+  }
+}
