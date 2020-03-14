@@ -1,0 +1,82 @@
+[2019-08-29 06:18:00] production.INFO: New user has entered {"fd":98} 
+[2019-08-29 06:18:00] production.INFO: new message {"fd":98,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC9tZW1iZXJzIiwiaWF0IjoxNTY2OTgzMjc3LCJleHAiOjE1NjcwMzAxMjcsIm5iZiI6MTU2NzAyNjUyNywianRpIjoiYndwTWs1VzBkS2c4T0ZKeCIsInN1YiI6NSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.kQtxQ5NzxqObyFUQcNoPhNVzbwwsG3dbnXyOx9rg_6k"}} 
+[2019-08-29 06:23:10] production.INFO: User has logged out {"fd":41} 
+[2019-08-29 10:24:19] production.INFO: User has logged out {"fd":98} 
+[2019-08-29 10:24:20] production.INFO: New user has entered {"fd":103} 
+[2019-08-29 10:24:20] production.INFO: new message {"fd":103,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjY5ODMyNzcsImV4cCI6MTU2NzA0NDU0NywibmJmIjoxNTY3MDQwOTQ3LCJqdGkiOiJUUzhOYXQ5c3lzanJydWQzIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.a4zebmmunmfjDMm4c7S6x3zCzBXZzyAnkCL9uusD_fI"}} 
+[2019-08-29 10:39:28] production.INFO: User has logged out {"fd":103} 
+[2019-08-29 13:40:29] production.INFO: User has logged out {"fd":9} 
+[2019-08-29 13:40:30] production.INFO: New user has entered {"fd":92} 
+[2019-08-29 13:40:30] production.INFO: new message {"fd":92,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC9tZW1iZXJzIiwiaWF0IjoxNTY2OTgxOTQzLCJleHAiOjE1NjcwNDU1NjQsIm5iZiI6MTU2NzA0MTk2NCwianRpIjoibzNSdEZCc1dtYnJNaWkxTSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9._Tw65l3Q991NvwlqiWzs6ejDk4podIUGGjGzuBS_VPA"}} 
+[2019-08-29 13:40:30] production.ERROR: User authorization failed {"params":[92,"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC9tZW1iZXJzIiwiaWF0IjoxNTY2OTgxOTQzLCJleHAiOjE1NjcwNDU1NjQsIm5iZiI6MTU2NzA0MTk2NCwianRpIjoibzNSdEZCc1dtYnJNaWkxTSIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9._Tw65l3Q991NvwlqiWzs6ejDk4podIUGGjGzuBS_VPA",0]} 
+[2019-08-29 13:40:30] production.INFO: User has logged out {"fd":92} 
+[2019-08-29 13:40:33] production.INFO: New user has entered {"fd":95} 
+[2019-08-29 13:40:33] production.INFO: new message {"fd":95,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjY5ODE5NDMsImV4cCI6MTU2NzA1NzIzMCwibmJmIjoxNTY3MDUzNjMwLCJqdGkiOiJ3YVR3VThZV3hrRTVHa0lmIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.wrIS_hnOWfebZXNFaI7bXk1NEgS8KZh9Rqq7Lz-FCUg"}} 
+[2019-08-29 13:42:21] production.INFO: New user has entered {"fd":97} 
+[2019-08-29 13:42:21] production.INFO: new message {"fd":97,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNTM3NDAsImV4cCI6MTU2NzA1NzM0MCwibmJmIjoxNTY3MDUzNzQwLCJqdGkiOiI0THpJeFZIT3RGQk1FQnI4Iiwic3ViIjozLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.tt3tSbtBrXTnUmKDN5_IZPHJsMa7B8jIkcJAG9j5Apg"}} 
+[2019-08-29 15:43:08] production.INFO: User has logged out {"fd":97} 
+[2019-08-29 17:55:06] production.INFO: User has logged out {"fd":95} 
+[2019-08-29 17:55:12] production.INFO: New user has entered {"fd":111} 
+[2019-08-29 17:55:12] production.INFO: new message {"fd":111,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjg5MTEsImV4cCI6MTU2NzA3MjUxMSwibmJmIjoxNTY3MDY4OTExLCJqdGkiOiJTQVowT1ZEWjJkeGJVU3hwIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.Hj7M_kViVOndXReTIMBKLvavddN_9v6OmEIaJn9Edq4"}} 
+[2019-08-29 17:55:55] production.INFO: New user has entered {"fd":112} 
+[2019-08-29 17:55:55] production.INFO: new message {"fd":112,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjg5NTUsImV4cCI6MTU2NzA3MjU1NSwibmJmIjoxNTY3MDY4OTU1LCJqdGkiOiJxQUluYWh4ZXFHTVNKNndOIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.gho9F5q-2VAMbD-zGLcrgpIp-DbaF3YDD28xlEVuezM"}} 
+[2019-08-29 17:56:05] production.INFO: User has logged out {"fd":112} 
+[2019-08-29 17:56:05] production.INFO: New user has entered {"fd":114} 
+[2019-08-29 17:56:05] production.INFO: new message {"fd":114,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjg5NTUsImV4cCI6MTU2NzA3MjU1NSwibmJmIjoxNTY3MDY4OTU1LCJqdGkiOiJxQUluYWh4ZXFHTVNKNndOIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.gho9F5q-2VAMbD-zGLcrgpIp-DbaF3YDD28xlEVuezM"}} 
+[2019-08-29 17:56:45] production.INFO: New user has entered {"fd":113} 
+[2019-08-29 17:56:45] production.INFO: new message {"fd":113,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjkwMDQsImV4cCI6MTU2NzA3MjYwNCwibmJmIjoxNTY3MDY5MDA0LCJqdGkiOiJrWWRBWWY4ZFVRNzltR0EzIiwic3ViIjozLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.QnlrIY1ROPGGxnSfwey21rtI6ZOPssPYVNTjvr05XdE"}} 
+[2019-08-29 17:57:37] production.INFO: New user has entered {"fd":106} 
+[2019-08-29 17:57:37] production.INFO: new message {"fd":106,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:15:51] production.INFO: New user has entered {"fd":115} 
+[2019-08-29 18:15:51] production.INFO: new message {"fd":115,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:18:21] production.INFO: User has logged out {"fd":106} 
+[2019-08-29 18:18:22] production.INFO: New user has entered {"fd":118} 
+[2019-08-29 18:18:22] production.INFO: new message {"fd":118,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:18:55] production.INFO: User has logged out {"fd":115} 
+[2019-08-29 18:18:56] production.INFO: New user has entered {"fd":110} 
+[2019-08-29 18:18:56] production.INFO: new message {"fd":110,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:19:35] production.INFO: User has logged out {"fd":110} 
+[2019-08-29 18:19:35] production.INFO: New user has entered {"fd":119} 
+[2019-08-29 18:19:35] production.INFO: new message {"fd":119,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:21:15] production.INFO: User has logged out {"fd":119} 
+[2019-08-29 18:21:16] production.INFO: New user has entered {"fd":117} 
+[2019-08-29 18:21:16] production.INFO: new message {"fd":117,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:21:31] production.INFO: User has logged out {"fd":118} 
+[2019-08-29 18:21:31] production.INFO: New user has entered {"fd":120} 
+[2019-08-29 18:21:32] production.INFO: new message {"fd":120,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3MjY1NiwibmJmIjoxNTY3MDY5MDU2LCJqdGkiOiI2aFlPbjNTWkZkZ01ObzFOIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.MI3_lPkpbfboh4tETX9X5udFFrs61h5lpecncfl5rpY"}} 
+[2019-08-29 18:21:50] production.INFO: User has logged out {"fd":111} 
+[2019-08-29 18:21:50] production.INFO: New user has entered {"fd":122} 
+[2019-08-29 18:21:51] production.INFO: new message {"fd":122,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjg5MTEsImV4cCI6MTU2NzA3MjUxMSwibmJmIjoxNTY3MDY4OTExLCJqdGkiOiJTQVowT1ZEWjJkeGJVU3hwIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.Hj7M_kViVOndXReTIMBKLvavddN_9v6OmEIaJn9Edq4"}} 
+[2019-08-29 18:38:06] production.INFO: User has logged out {"fd":114} 
+[2019-08-29 18:38:06] production.INFO: New user has entered {"fd":116} 
+[2019-08-29 18:38:07] production.INFO: new message {"fd":116,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjg5NTUsImV4cCI6MTU2NzA3MjU1NSwibmJmIjoxNTY3MDY4OTU1LCJqdGkiOiJxQUluYWh4ZXFHTVNKNndOIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.gho9F5q-2VAMbD-zGLcrgpIp-DbaF3YDD28xlEVuezM"}} 
+[2019-08-29 19:12:07] production.INFO: User has logged out {"fd":117} 
+[2019-08-29 19:12:07] production.INFO: New user has entered {"fd":125} 
+[2019-08-29 19:12:07] production.INFO: new message {"fd":125,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNjkwNTYsImV4cCI6MTU2NzA3NjI4OCwibmJmIjoxNTY3MDcyNjg4LCJqdGkiOiJkaUFXSnJCMGJuQnJmMnlpIiwic3ViIjo1LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.SF3RSw70sn8_sNmjxaWy-zgN17_mFxU_o67CvIHlFk0"}} 
+[2019-08-29 19:24:14] production.INFO: User has logged out {"fd":116} 
+[2019-08-29 19:24:14] production.INFO: User has logged out {"fd":125} 
+[2019-08-29 19:24:15] production.INFO: User has logged out {"fd":120} 
+[2019-08-29 19:40:19] production.INFO: New user has entered {"fd":124} 
+[2019-08-29 19:40:19] production.INFO: new message {"fd":124,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNzUyMTgsImV4cCI6MTU2NzA3ODgxOCwibmJmIjoxNTY3MDc1MjE4LCJqdGkiOiJkY2FtamJrOGc5aldvcXVjIiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.h2t7vYmBUKdN_Gzc_OAaVDLlw9BZeGuusTa-wWN95H0"}} 
+[2019-08-29 19:40:38] production.INFO: User has logged out {"fd":124} 
+[2019-08-29 19:40:43] production.INFO: New user has entered {"fd":126} 
+[2019-08-29 19:40:43] production.INFO: new message {"fd":126,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNzUyNDMsImV4cCI6MTU2NzA3ODg0MywibmJmIjoxNTY3MDc1MjQzLCJqdGkiOiJEWmRNUFJmeVJ3WnVuODJYIiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FJomVpNOcu7z2go-A105__2VEEquggWXqxM4csLCoTk"}} 
+[2019-08-29 19:45:49] production.INFO: New user has entered {"fd":130} 
+[2019-08-29 19:45:49] production.INFO: new message {"fd":130,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNzU1NDMsImV4cCI6MTU2NzA3OTE0MywibmJmIjoxNTY3MDc1NTQzLCJqdGkiOiJTcU9qZUltcDRxc1JuQXVyIiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.CuQXuMMYne6y1-Syq2Es9T4NQXxXYuRb10oLQocOw1w"}} 
+[2019-08-29 19:47:22] production.INFO: User has logged out {"fd":130} 
+[2019-08-29 19:47:35] production.INFO: New user has entered {"fd":129} 
+[2019-08-29 19:47:35] production.INFO: new message {"fd":129,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNzU1MzIsImV4cCI6MTU2NzA3OTEzMiwibmJmIjoxNTY3MDc1NTMyLCJqdGkiOiJJN2VyQlp6dWRlMGcxajd6Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FH3jdVPIzMUx-DugERlZub09wYSzKFbmxJd4iL2Ln1Q"}} 
+[2019-08-29 19:47:44] production.INFO: New user has entered {"fd":121} 
+[2019-08-29 19:47:44] production.INFO: new message {"fd":121,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNzU2NjMsImV4cCI6MTU2NzA3OTI2MywibmJmIjoxNTY3MDc1NjYzLCJqdGkiOiJ4aE83eGRQNk5QMmE2aGVQIiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.4c9Bqp8p8J1pr4Hs-lP2NTQYggbhFDvVAsla0LuMF3Y"}} 
+[2019-08-29 19:48:30] production.INFO: User has logged out {"fd":129} 
+[2019-08-29 19:49:08] production.INFO: New user has entered {"fd":131} 
+[2019-08-29 19:49:09] production.INFO: new message {"fd":131,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNzU1MzIsImV4cCI6MTU2NzA3OTEzMiwibmJmIjoxNTY3MDc1NTMyLCJqdGkiOiJJN2VyQlp6dWRlMGcxajd6Iiwic3ViIjo2LCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.FH3jdVPIzMUx-DugERlZub09wYSzKFbmxJd4iL2Ln1Q"}} 
+[2019-08-29 19:50:00] production.INFO: User has logged out {"fd":15} 
+[2019-08-29 19:50:12] production.INFO: New user has entered {"fd":107} 
+[2019-08-29 19:50:12] production.INFO: new message {"fd":107,"data":{"action":"login","type":0,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnMiLCJpYXQiOjE1NjcwNzU4MTIsImV4cCI6MTU2NzA3OTQxMiwibmJmIjoxNTY3MDc1ODEyLCJqdGkiOiJTajFMSnM0UUE4RUZXdDVZIiwic3ViIjoxLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.XaNYEeTjZRnBhhFu8qQaAbpAl1ZOl_RZ3aGk_JBBhgk"}} 
+[2019-08-29 19:50:46] production.INFO: User has logged out {"fd":131} 
+[2019-08-29 19:53:02] production.INFO: User has logged out {"fd":113} 
+[2019-08-29 19:53:03] production.INFO: New user has entered {"fd":133} 
+[2019-08-29 19:53:03] production.INFO: new message {"fd":133,"data":{"action":"login","type":1,"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8yMTkuMTA2LjIyMS4xODU6OTBcL3YxXC90b2tlbnNcL2luZm8iLCJpYXQiOjE1NjcwNjkwMDQsImV4cCI6MTU2NzA3NjIyOCwibmJmIjoxNTY3MDcyNjI4LCJqdGkiOiJSWHhKR3AwSk9UOFJTeXNjIiwic3ViIjozLCJwcnYiOiI4N2UwYWYxZWY5ZmQxNTgxMmZkZWM5NzE1M2ExNGUwYjA0NzU0NmFhIn0.NootUU3YdgwFwX0Qbzl01ptCXlbzn6zOy_wUwH0L7m0"}} 
+[2019-08-29 19:53:06] production.INFO: User has logged out {"fd":133} 
+[2019-08-29 19:55:56] production.INFO: User has logged out {"fd":121} 

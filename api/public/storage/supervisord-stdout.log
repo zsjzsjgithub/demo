@@ -1,0 +1,126 @@
+ _                               _  _____ 
+| |                             | |/ ____|
+| |     __ _ _ __ __ ___   _____| | (___  
+| |    / _` | '__/ _` \ \ / / _ \ |\___ \ 
+| |___| (_| | | | (_| |\ V /  __/ |____) |
+|______\__,_|_|  \__,_| \_/ \___|_|_____/ 
+                                           
+Speed up your Laravel/Lumen
+>>> Components
++--------------------------------+------------------------------------------+
+| Component                      | Version                                  |
++--------------------------------+------------------------------------------+
+| PHP                            | 7.1.31                                   |
+| Swoole                         | 4.4.4                                    |
+| LaravelS                       | 3.4.4                                    |
+| Laravel Framework [production] | Lumen (5.7.8) (Laravel Components 5.7.*) |
++--------------------------------+------------------------------------------+
+>>> Protocols
++----------------+--------+-----------------------------+------------------------+
+| Protocol       | Status | Handler                     | Listen At              |
++----------------+--------+-----------------------------+------------------------+
+| Main HTTP      | On     | Laravel Framework           | /dev/shm/laravels.sock |
+| Main WebSocket | On     | App\Server\WebSocketHandler | /dev/shm/laravels.sock |
++----------------+--------+-----------------------------+------------------------+
+>>> Feedback: https://github.com/hhxsv5/laravel-s
+[2019-08-28 07:34:30] [TRACE] Swoole is running, press Ctrl+C to quit.
+ _                               _  _____ 
+| |                             | |/ ____|
+| |     __ _ _ __ __ ___   _____| | (___  
+| |    / _` | '__/ _` \ \ / / _ \ |\___ \ 
+| |___| (_| | | | (_| |\ V /  __/ |____) |
+|______\__,_|_|  \__,_| \_/ \___|_|_____/ 
+                                           
+Speed up your Laravel/Lumen
+>>> Components
++--------------------------------+------------------------------------------+
+| Component                      | Version                                  |
++--------------------------------+------------------------------------------+
+| PHP                            | 7.1.31                                   |
+| Swoole                         | 4.4.4                                    |
+| LaravelS                       | 3.4.4                                    |
+| Laravel Framework [production] | Lumen (5.7.8) (Laravel Components 5.7.*) |
++--------------------------------+------------------------------------------+
+>>> Protocols
++----------------+--------+-----------------------------+------------------------+
+| Protocol       | Status | Handler                     | Listen At              |
++----------------+--------+-----------------------------+------------------------+
+| Main HTTP      | On     | Laravel Framework           | /dev/shm/laravels.sock |
+| Main WebSocket | On     | App\Server\WebSocketHandler | /dev/shm/laravels.sock |
++----------------+--------+-----------------------------+------------------------+
+>>> Feedback: https://github.com/hhxsv5/laravel-s
+[2019-08-28 07:57:23] [TRACE] Swoole is running, press Ctrl+C to quit.
+[2019-08-28 16:57:24] [ERROR] Uncaught exception 'Illuminate\Database\QueryException': [2002]SQLSTATE[HY000] [2002] Connection refused (SQL: select * from `settings` where `id` = 1 limit 1) called in /www/api/vendor/illuminate/database/Connection.php:664
+#0 /www/api/vendor/illuminate/database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /www/api/vendor/illuminate/database/Connection.php(333): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /www/api/vendor/illuminate/database/Query/Builder.php(2095): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /www/api/vendor/illuminate/database/Query/Builder.php(2083): Illuminate\Database\Query\Builder->runSelect()
+#4 /www/api/vendor/illuminate/database/Query/Builder.php(2569): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 /www/api/vendor/illuminate/database/Query/Builder.php(2084): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 /www/api/vendor/illuminate/database/Eloquent/Builder.php(519): Illuminate\Database\Query\Builder->get(Array)
+#7 /www/api/vendor/illuminate/database/Eloquent/Builder.php(503): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /www/api/vendor/illuminate/database/Concerns/BuildsQueries.php(77): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /www/api/app/Models/FhConfig.php(18): Illuminate\Database\Eloquent\Builder->first()
+#10 /www/api/app/Server/PullProcess.php(46): App\Models\FhConfig::reset()
+#11 [internal function]: App\Server\PullProcess::callback(Object(Swoole\WebSocket\Server), Object(Swoole\Process))
+#12 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/LogTrait.php(79): call_user_func_array(Array, Array)
+#13 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/CustomProcessTrait.php(47): Hhxsv5\LaravelS\LaravelS->callWithCatchException(Array, Array)
+#14 {main}
+[2019-08-28 16:57:25] [ERROR] Uncaught exception 'Illuminate\Database\QueryException': [2002]SQLSTATE[HY000] [2002] Connection refused (SQL: select * from `settings` where `id` = 1 limit 1) called in /www/api/vendor/illuminate/database/Connection.php:664
+#0 /www/api/vendor/illuminate/database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /www/api/vendor/illuminate/database/Connection.php(333): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /www/api/vendor/illuminate/database/Query/Builder.php(2095): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /www/api/vendor/illuminate/database/Query/Builder.php(2083): Illuminate\Database\Query\Builder->runSelect()
+#4 /www/api/vendor/illuminate/database/Query/Builder.php(2569): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 /www/api/vendor/illuminate/database/Query/Builder.php(2084): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 /www/api/vendor/illuminate/database/Eloquent/Builder.php(519): Illuminate\Database\Query\Builder->get(Array)
+#7 /www/api/vendor/illuminate/database/Eloquent/Builder.php(503): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /www/api/vendor/illuminate/database/Concerns/BuildsQueries.php(77): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /www/api/app/Models/FhConfig.php(18): Illuminate\Database\Eloquent\Builder->first()
+#10 /www/api/app/Server/PullProcess.php(46): App\Models\FhConfig::reset()
+#11 [internal function]: App\Server\PullProcess::callback(Object(Swoole\WebSocket\Server), Object(Swoole\Process))
+#12 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/LogTrait.php(79): call_user_func_array(Array, Array)
+#13 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/CustomProcessTrait.php(47): Hhxsv5\LaravelS\LaravelS->callWithCatchException(Array, Array)
+#14 {main}
+[2019-08-28 16:57:26] [ERROR] Uncaught exception 'Illuminate\Database\QueryException': [2002]SQLSTATE[HY000] [2002] Connection refused (SQL: select * from `settings` where `id` = 1 limit 1) called in /www/api/vendor/illuminate/database/Connection.php:664
+#0 /www/api/vendor/illuminate/database/Connection.php(624): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 /www/api/vendor/illuminate/database/Connection.php(333): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#2 /www/api/vendor/illuminate/database/Query/Builder.php(2095): Illuminate\Database\Connection->select('select * from `...', Array, true)
+#3 /www/api/vendor/illuminate/database/Query/Builder.php(2083): Illuminate\Database\Query\Builder->runSelect()
+#4 /www/api/vendor/illuminate/database/Query/Builder.php(2569): Illuminate\Database\Query\Builder->Illuminate\Database\Query\{closure}()
+#5 /www/api/vendor/illuminate/database/Query/Builder.php(2084): Illuminate\Database\Query\Builder->onceWithColumns(Array, Object(Closure))
+#6 /www/api/vendor/illuminate/database/Eloquent/Builder.php(519): Illuminate\Database\Query\Builder->get(Array)
+#7 /www/api/vendor/illuminate/database/Eloquent/Builder.php(503): Illuminate\Database\Eloquent\Builder->getModels(Array)
+#8 /www/api/vendor/illuminate/database/Concerns/BuildsQueries.php(77): Illuminate\Database\Eloquent\Builder->get(Array)
+#9 /www/api/app/Models/FhConfig.php(18): Illuminate\Database\Eloquent\Builder->first()
+#10 /www/api/app/Server/PullProcess.php(46): App\Models\FhConfig::reset()
+#11 [internal function]: App\Server\PullProcess::callback(Object(Swoole\WebSocket\Server), Object(Swoole\Process))
+#12 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/LogTrait.php(79): call_user_func_array(Array, Array)
+#13 /www/api/vendor/hhxsv5/laravel-s/src/Swoole/Traits/CustomProcessTrait.php(47): Hhxsv5\LaravelS\LaravelS->callWithCatchException(Array, Array)
+#14 {main}
+ _                               _  _____ 
+| |                             | |/ ____|
+| |     __ _ _ __ __ ___   _____| | (___  
+| |    / _` | '__/ _` \ \ / / _ \ |\___ \ 
+| |___| (_| | | | (_| |\ V /  __/ |____) |
+|______\__,_|_|  \__,_| \_/ \___|_|_____/ 
+                                           
+Speed up your Laravel/Lumen
+>>> Components
++--------------------------------+------------------------------------------+
+| Component                      | Version                                  |
++--------------------------------+------------------------------------------+
+| PHP                            | 7.1.31                                   |
+| Swoole                         | 4.4.4                                    |
+| LaravelS                       | 3.4.4                                    |
+| Laravel Framework [production] | Lumen (5.7.8) (Laravel Components 5.7.*) |
++--------------------------------+------------------------------------------+
+>>> Protocols
++----------------+--------+-----------------------------+------------------------+
+| Protocol       | Status | Handler                     | Listen At              |
++----------------+--------+-----------------------------+------------------------+
+| Main HTTP      | On     | Laravel Framework           | /dev/shm/laravels.sock |
+| Main WebSocket | On     | App\Server\WebSocketHandler | /dev/shm/laravels.sock |
++----------------+--------+-----------------------------+------------------------+
+>>> Feedback: https://github.com/hhxsv5/laravel-s
+[2019-08-28 08:26:24] [TRACE] Swoole is running, press Ctrl+C to quit.

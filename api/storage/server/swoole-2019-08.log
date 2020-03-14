@@ -1,0 +1,2 @@
+[2019-08-29 13:41:50 *8453.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Broken pipe: 13
+[2019-08-29 19:49:09 *8454.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Broken pipe: 13
